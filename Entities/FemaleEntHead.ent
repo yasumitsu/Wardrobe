@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="FemaleEntHead">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/FemaleEntHead_mesh.m.hgm"/>
+			<material file="Materials/FemaleEntHead_mesh.mtl"/>
+			<bsphere value="6.325,-0.010,153.052,18.701"/>
+			<box min="-5.752,-9.102,136.363" max="18.402,9.082,169.741"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderMOD_Apperance_Female.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

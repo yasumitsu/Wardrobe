@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/FemaleSkirt_mesh.m.hgm"/>
+			<material file="Materials/FemaleSkirt_mesh.mtl"/>
+			<bsphere value="1.012,0.000,89.930,28.750"/>
+			<box min="-17.460,-24.745,77.217" max="19.484,24.746,102.643"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderMOD_Apperance_Female.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

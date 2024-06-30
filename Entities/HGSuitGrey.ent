@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/HGSuitGrey_mesh.m.hgm"/>
+			<material file="Materials/HGSuitGrey_mesh.mtl"/>
+			<bsphere value="1.996,-0.308,122.536,71.487"/>
+			<box min="-14.600,-70.176,85.094" max="18.592,69.559,159.979"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderScene_Appearance.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

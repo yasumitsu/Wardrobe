@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="FemaleEntBottom">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="LOD2">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/FemaleEntBottom_mesh.m.hgm"/>
+			<material file="Materials/FemaleEntBottom_mesh.mtl"/>
+			<bsphere value="2.203,-0.024,50.275,56.655"/>
+			<box min="-12.377,-26.032,0.226" max="16.784,25.984,100.324"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderMOD_Apperance_Female.fbx"/>
+		</lod>
+		<lod idx="1" distance="1000">
+			<mesh file="Meshes/FemaleEntBottom_mesh.1.m.hgm"/>
+			<material file="Materials/FemaleEntBottom_mesh.1.mtl"/>
+			<bsphere value="2.285,-0.024,50.297,56.626"/>
+			<box min="-12.377,-25.995,0.225" max="16.947,25.948,100.369"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/BlenderMOD_Apperance_Female.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
