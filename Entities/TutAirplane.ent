@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/TutAirplane_mesh.m.hgm"/>
+			<material file="Materials/TutAirplane_mesh.mtl"/>
+			<bsphere value="-97.709,0.000,465.513,3651.424"/>
+			<box min="-3626.958,-3208.837,-471.131" max="3431.540,3208.837,1402.157"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/Tut_Airplane_8-19-17_11.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

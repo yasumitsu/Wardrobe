@@ -11,6 +11,10 @@ return {
 			'entity_name', "FemaleEntHead",
 		}),
 		}),
+	PlaceObj('ModItemEntity', {
+		'name', "EmmyHead",
+		'entity_name', "EmmyHead",
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Male General Clothes",
 	}, {
@@ -50,6 +54,18 @@ return {
 	PlaceObj('ModItemFolder', {
 		'name', "Vehicles",
 	}, {
+		PlaceObj('ModItemEntity', {
+			'name', "TutAirplane",
+			'entity_name', "TutAirplane",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "RedPlane",
+			'entity_name', "RedPlane",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "KombiDoBope",
+			'entity_name', "KombiDoBope",
+		}),
 		PlaceObj('ModItemEntity', {
 			'name', "lwachoppera",
 			'entity_name', "lwachoppera",

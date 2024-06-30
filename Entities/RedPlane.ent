@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/RedPlane_mesh.m.hgm"/>
+			<material file="Materials/RedPlane_mesh.mtl"/>
+			<bsphere value="0.130,0.000,53.326,265.747"/>
+			<box min="-201.313,-263.934,-4.524" max="201.573,263.934,111.175"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/VLJ19v280.fbx"/>
+		</lod>
+		<surf type="collision" name="PVS" points="119.246,-19.708,54.610;107.035,-26.851,53.315;114.955,-18.571,57.330"/>
+		<surf type="collision" name="PVS" points="114.955,-18.571,57.330;104.032,-25.546,56.159;110.181,-17.290,60.334"/>
+		<surf type="collision" name="PVS" points="115.287,-10.413,61.010;114.955,-18.571,57.330;110.181,-17.290,60.334"/>
+		<surf type="collision" name="PVS" points="110.181,-17.290,60.334;110.885,-9.838,63.529;115.287,-10.413,61.010"/>
+		<surf type="collision" name="PVS" points="114.955,-18.571,57.330;115.287,-10.413,61.010;120.523,-11.101,58.025"/>
+		<surf type="collision" name="PVS" points="120.523,-11.101,58.025;119.246,-19.708,54.610;114.955,-18.571,57.330"/>
+		<surf type="collision" name="PVS" points="119.246,-19.708,54.610;120.523,-11.101,58.025;125.165,-11.722,55.401"/>
+		<surf type="collision" name="PVS" points="117.142,-5.987,61.262;122.471,-6.337,58.329;120.523,-11.101,58.025"/>
+		<surf type="collision" name="PVS" points="122.471,-6.337,58.329;125.165,-11.722,55.401;120.523,-11.101,58.025"/>
+		<surf type="collision" name="PVS" points="125.165,-11.722,55.401;122.471,-6.337,58.329;127.224,-6.652,55.730"/>
+		<surf type="collision" name="PVS" points="134.361,-2.550,52.920;130.744,-12.393,52.274;130.853,-6.895,53.753"/>
+		<surf type="collision" name="PVS" points="110.181,17.290,60.334;104.032,25.546,56.159;114.955,18.571,57.330"/>
+		<surf type="collision" name="PVS" points="110.885,9.838,63.529;110.181,17.290,60.334;115.287,10.413,61.010"/>
+		<surf type="collision" name="PVS" points="114.955,18.571,57.330;115.287,10.413,61.010;110.181,17.290,60.334"/>
+		<surf type="collision" name="PVS" points="115.287,10.413,61.010;114.955,18.571,57.330;120.523,11.101,58.025"/>
+		<surf type="collision" name="PVS" points="117.142,5.987,61.262;120.523,11.101,58.025;122.471,6.337,58.329"/>
+		<surf type="collision" name="PVS" points="125.165,11.722,55.401;122.471,6.337,58.329;120.523,11.101,58.025"/>
+		<surf type="collision" name="PVS" points="122.471,6.337,58.329;125.165,11.722,55.401;127.224,6.652,55.730"/>
+		<surf type="collision" name="PVS" points="120.523,11.101,58.025;119.246,19.708,54.610;125.165,11.722,55.401"/>
+		<surf type="collision" name="PVS" points="119.246,19.708,54.610;120.523,11.101,58.025;114.955,18.571,57.330"/>
+		<surf type="collision" name="PVS" points="107.035,26.851,53.315;119.246,19.708,54.610;114.955,18.571,57.330"/>
+		<surf type="collision" name="PVS" points="130.744,12.393,52.274;134.361,2.550,52.920;130.853,6.895,53.753"/>
+		<surf_hash type="collision" value="3294899531"/>
+	</mesh_description>
+</entity>

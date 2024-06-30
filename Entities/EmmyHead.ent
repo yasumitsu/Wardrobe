@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="EmmyHead">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/EmmyHead_mesh.m.hgm"/>
+			<material file="Materials/EmmyHead_mesh.mtl"/>
+			<bsphere value="9.791,0.000,151.685,17.569"/>
+			<box min="-1.407,-10.270,135.130" max="20.988,10.270,168.240"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/untitled.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
