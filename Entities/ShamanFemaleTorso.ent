@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/ShamanFemaleTorso_mesh.m.hgm"/>
+			<material file="Materials/ShamanFemaleTorso_mesh.mtl"/>
+			<bsphere value="-0.488,-0.010,119.461,73.458"/>
+			<box min="-12.775,-72.120,91.623" max="11.799,72.101,147.298"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/untitled.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

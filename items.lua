@@ -11,10 +11,6 @@ return {
 			'entity_name', "FemaleEntHead",
 		}),
 		}),
-	PlaceObj('ModItemEntity', {
-		'name', "EmmyHead",
-		'entity_name', "EmmyHead",
-	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Male General Clothes",
 	}, {

@@ -8,13 +8,12 @@ return PlaceObj('ModDef', {
 	'last_changes', "- description jokes",
 	'id', "Wardrobe",
 	'author', "Sir Ni",
-	'version', 79,
+	'version', 88,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'entities', {
 		"FemaleEntTop",
 		"FemaleEntHead",
-		"EmmyHead",
 		"HGBasicPantsGrey",
 		"HGSuitGrey",
 		"FemaleSortOfShirt",
@@ -31,7 +30,6 @@ return PlaceObj('ModDef', {
 	'code', {
 		"Entities/FemaleEntTop.lua",
 		"Entities/FemaleEntHead.lua",
-		"Entities/EmmyHead.lua",
 		"Entities/HGBasicPantsGrey.lua",
 		"Entities/HGSuitGrey.lua",
 		"Entities/FemaleSortOfShirt.lua",
@@ -47,8 +45,8 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719742680,
-	'code_hash', 7498556322145524204,
+	'saved', 1720691790,
+	'code_hash', 6173550375833641139,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "AppearancePreset",
