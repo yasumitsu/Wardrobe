@@ -48,6 +48,24 @@ return {
 		}),
 		}),
 	PlaceObj('ModItemFolder', {
+		'name', "Equipment",
+	}, {
+		PlaceObj('ModItemEntity', {
+			'name', "HighTechHelmet",
+			'class_parent', "AutoAttachObject",
+			'entity_name', "HighTechHelmet",
+			'material_type', "Metal_Solid_Hard",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "DamascusDagger",
+			'entity_name', "DamascusDagger",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "DamascusClaymore",
+			'entity_name', "DamascusClaymore",
+		}),
+		}),
+	PlaceObj('ModItemFolder', {
 		'name', "Vehicles",
 	}, {
 		PlaceObj('ModItemEntity', {
@@ -103,7 +121,7 @@ return {
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Hat = "HatFemale",
+		Hat = "HighTechHelmet",
 		Hat2Color = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),

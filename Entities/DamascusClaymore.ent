@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/DamascusClaymore_mesh.m.hgm"/>
+			<material file="Materials/DamascusClaymore_mesh.mtl"/>
+			<bsphere value="5.871,11.400,48.645,71.775"/>
+			<box min="-9.807,-4.849,-19.539" max="21.548,27.649,116.829"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

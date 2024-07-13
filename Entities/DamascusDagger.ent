@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/DamascusDagger_mesh.m.hgm"/>
+			<material file="Materials/DamascusDagger_mesh.mtl"/>
+			<bsphere value="0.187,1.488,4.556,12.055"/>
+			<box min="-3.428,-1.756,-6.817" max="3.801,4.733,15.929"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
