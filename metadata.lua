@@ -8,7 +8,7 @@ return PlaceObj('ModDef', {
 	'last_changes', "- description jokes",
 	'id', "Wardrobe",
 	'author', "Sir Ni",
-	'version', 88,
+	'version', 93,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'entities', {
@@ -26,6 +26,7 @@ return PlaceObj('ModDef', {
 		"KombiDoBope",
 		"lwachoppera",
 		"WoodenClub",
+		"AlienGrub",
 	},
 	'code', {
 		"Entities/FemaleEntTop.lua",
@@ -42,11 +43,12 @@ return PlaceObj('ModDef', {
 		"Entities/KombiDoBope.lua",
 		"Entities/lwachoppera.lua",
 		"Entities/WoodenClub.lua",
+		"Entities/AlienGrub.lua",
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1720691790,
-	'code_hash', 6173550375833641139,
+	'saved', 1720872404,
+	'code_hash', -3746794637786627251,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
 			'Class', "AppearancePreset",

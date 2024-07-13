@@ -208,4 +208,12 @@ return {
 		group = "Wardrobe",
 		id = "DummyFemaleTest",
 	}),
+	PlaceObj('ModItemFolder', {
+		'name', "Minsc",
+	}, {
+		PlaceObj('ModItemEntity', {
+			'name', "AlienGrub",
+			'entity_name', "AlienGrub",
+		}),
+		}),
 }

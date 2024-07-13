@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/AlienGrub_mesh.m.hgm"/>
+			<material file="Materials/AlienGrub_mesh.mtl"/>
+			<bsphere value="0.000,0.000,16.681,39.276"/>
+			<box min="-33.769,-31.990,-5.315" max="33.769,31.990,38.676"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/AlienGrub1.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
