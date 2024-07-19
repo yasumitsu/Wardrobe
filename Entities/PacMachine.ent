@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/PacMachine_mesh.m.hgm"/>
+			<material file="Materials/PacMachine_mesh.mtl"/>
+			<bsphere value="5.479,-1.956,73.750,84.786"/>
+			<box min="-26.476,-29.725,-1.539" max="37.435,25.814,149.040"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

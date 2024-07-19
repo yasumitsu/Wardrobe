@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="PacmanArcade">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<state id="working">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/PacmanArcade_mesh.m.hgm"/>
+			<material file="Materials/PacmanArcade_mesh.mtl"/>
+			<bsphere value="8.219,-2.934,110.626,127.179"/>
+			<box min="-39.715,-44.588,-2.308" max="56.152,38.721,223.559"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

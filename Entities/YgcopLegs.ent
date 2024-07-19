@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="YgcopLegs">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/YgcopLegs_mesh.m.hgm"/>
+			<material file="Materials/YgcopLegs_mesh.mtl"/>
+			<bsphere value="2.682,0.000,52.077,60.448"/>
+			<box min="-13.325,-25.835,-2.663" max="18.688,25.835,106.816"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

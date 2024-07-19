@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/NCRRangerTorso_mesh.m.hgm"/>
+			<material file="Materials/NCRRangerTorso_mesh.mtl"/>
+			<bsphere value="1.974,-1.312,87.365,84.043"/>
+			<box min="-23.458,-56.262,5.817" max="27.406,53.638,168.913"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

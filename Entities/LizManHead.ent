@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/LizManHead_mesh.m.hgm"/>
+			<material file="Materials/LizManHead_mesh.mtl"/>
+			<bsphere value="13.765,0.525,168.051,36.981"/>
+			<box min="-16.169,-22.188,150.812" max="43.699,23.238,185.290"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/GreenVestMale_mesh.m.hgm"/>
+			<material file="Materials/GreenVestMale_mesh.mtl"/>
+			<bsphere value="2.106,0.277,127.243,35.778"/>
+			<box min="-18.480,-25.131,98.208" max="22.692,25.685,156.278"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

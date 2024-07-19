@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/RepmanTorso_mesh.m.hgm"/>
+			<material file="Materials/RepmanTorso_mesh.mtl"/>
+			<bsphere value="8.793,-1.264,123.887,87.885"/>
+			<box min="-16.202,-86.956,82.337" max="33.788,84.427,165.438"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

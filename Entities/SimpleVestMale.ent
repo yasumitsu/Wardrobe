@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="SimpleVestMale">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/SimpleVestMale_mesh.m.hgm"/>
+			<material file="Materials/SimpleVestMale_mesh.mtl"/>
+			<bsphere value="4.109,-0.346,121.912,39.260"/>
+			<box min="-16.053,-23.848,88.542" max="24.271,23.155,155.281"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
