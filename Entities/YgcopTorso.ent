@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<entity path="" name="YgcopTorso">
+<entity path="" name="">
 	<inherit entity="Female" mesh_ref="mesh"/>
 	<state id="_mesh">
 		<mesh_ref ref="mesh"/>
 	</state>
 	<mesh_description id="mesh">
 		<lod idx="0" distance="0">
-			<mesh file="Meshes/YgcopTorso_mesh.m.hgm"/>
-			<material file="Materials/YgcopTorso_mesh.mtl"/>
-			<bsphere value="1.954,0.957,122.537,50.594"/>
-			<box min="-28.008,-25.853,75.877" max="31.916,27.767,169.198"/>
+			<mesh file="Meshes/YgCopTorso_mesh.m.hgm"/>
+			<material file="Materials/YgCopTorso_mesh.mtl"/>
+			<bsphere value="-1.769,-0.390,117.311,72.442"/>
+			<box min="-19.339,-68.684,80.798" max="15.800,67.904,153.824"/>
 			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
 		</lod>
 	</mesh_description>

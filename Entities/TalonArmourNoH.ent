@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/TalonArmourNoH_mesh.m.hgm"/>
+			<material file="Materials/TalonArmourNoH_mesh.mtl"/>
+			<bsphere value="1.161,-0.680,124.296,74.222"/>
+			<box min="-24.533,-70.573,82.204" max="26.855,69.214,166.388"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

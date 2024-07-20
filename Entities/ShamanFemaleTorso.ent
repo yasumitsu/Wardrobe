@@ -8,9 +8,9 @@
 		<lod idx="0" distance="0">
 			<mesh file="Meshes/ShamanFemaleTorso_mesh.m.hgm"/>
 			<material file="Materials/ShamanFemaleTorso_mesh.mtl"/>
-			<bsphere value="-0.488,-0.010,119.461,73.458"/>
-			<box min="-12.775,-72.120,91.623" max="11.799,72.101,147.298"/>
-			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/untitled.fbx"/>
+			<bsphere value="6.939,-0.010,117.429,73.086"/>
+			<box min="-4.531,-72.121,91.624" max="18.410,72.101,143.235"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
 		</lod>
 	</mesh_description>
 </entity>

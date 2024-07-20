@@ -1,43 +1,163 @@
 return {
 	PlaceObj('ModItemFolder', {
+		'name', "Female General Clothes",
+	}, {
+		PlaceObj('ModItemFolder', {
+			'name', "Sets",
+		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "Chinese Set",
+			}, {
+				PlaceObj('ModItemEntity', {
+					'name', "ChineseSkirtv2",
+					'entity_name', "ChineseSkirtv2",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "ChineseShirtv2",
+					'entity_name', "ChineseShirtv2",
+				}),
+				}),
+			PlaceObj('ModItemFolder', {
+				'name', "HG Set",
+			}, {
+				PlaceObj('ModItemEntity', {
+					'name', "FemaleEntBottom",
+					'entity_name', "FemaleEntBottom",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "FemaleEntTop1",
+					'entity_name', "FemaleEntTop1",
+				}),
+				}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Top",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "FemaleSortOfShirt",
+				'entity_name', "FemaleSortOfShirt",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Bottom",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "FemaleSkirt",
+				'entity_name', "FemaleSkirt",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Minsc",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "HatFemale",
+				'entity_name', "HatFemale",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "FemaleBag",
+				'entity_name', "FemaleBag",
+			}),
+			}),
+		}),
+	PlaceObj('ModItemFolder', {
 		'name', "Body... Parts?",
 	}, {
+		PlaceObj('ModItemFolder', {
+			'name', "NCR Ranger",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "NCRRangerTorso",
+				'entity_name', "NCRRangerTorso",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "NCRRangerHead",
+				'entity_name', "NCRRangerHead",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "NCRRangerHands",
+				'entity_name', "NCRRangerHands",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "NCRRangerBottom",
+				'entity_name', "NCRRangerBottom",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "NCRRangerAcess",
+				'entity_name', "NCRRangerAcess",
+			}),
+			}),
 		PlaceObj('ModItemEntity', {
 			'name', "FemaleEntTop",
 			'entity_name', "FemaleEntTop",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "DeadpoolTorsov2",
-			'entity_name', "DeadpoolTorsov2",
+			'name', "ShamanFHead",
+			'entity_name', "ShamanFHead",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "DeadpoolHeadv2",
-			'entity_name', "DeadpoolHeadv2",
+			'name', "ShamanFemaleBottom",
+			'entity_name', "ShamanFemaleBottom",
 		}),
-		PlaceObj('ModItemEntity', {
-			'name', "DeadpoolBottomv2",
-			'entity_name', "DeadpoolBottomv2",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "DeadpoolTorsov3",
-			'entity_name', "DeadpoolTorsov3",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "YgcopTorso",
-			'entity_name', "YgcopTorso",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "YgcopLegs",
-			'entity_name', "YgcopLegs",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "YgcopHead",
-			'entity_name', "YgcopHead",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "YgcopArms",
-			'entity_name', "YgcopArms",
-		}),
+		PlaceObj('ModItemFolder', {
+			'name', "YgCop",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "YgCopTorsov2",
+				'entity_name', "YgCopTorsov2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgCopJetv2",
+				'entity_name', "YgCopJetv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgCopBottomv2",
+				'entity_name', "YgCopBottomv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgCopHeadv2",
+				'entity_name', "YgCopHeadv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgCopBeltv2",
+				'entity_name', "YgCopBeltv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgcopTorso",
+				'entity_name', "YgcopTorso",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgcopLegs",
+				'entity_name', "YgcopLegs",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgcopHead",
+				'entity_name', "YgcopHead",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "YgcopArms",
+				'entity_name', "YgcopArms",
+			}),
+			}),
+		PlaceObj('ModItemFolder', {
+			'name', "Deadpool",
+		}, {
+			PlaceObj('ModItemEntity', {
+				'name', "DeadpoolTorsov2",
+				'entity_name', "DeadpoolTorsov2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "DeadpoolHeadv2",
+				'entity_name', "DeadpoolHeadv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "DeadpoolBottomv2",
+				'entity_name', "DeadpoolBottomv2",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "DeadpoolTorsov3",
+				'entity_name', "DeadpoolTorsov3",
+			}),
+			}),
 		PlaceObj('ModItemEntity', {
 			'name', "FemaleEntHead",
 			'entity_name', "FemaleEntHead",
@@ -46,43 +166,27 @@ return {
 	PlaceObj('ModItemFolder', {
 		'name', "Male General Clothes",
 	}, {
-		PlaceObj('ModItemEntity', {
-			'name', "HGBasicPantsGrey",
-			'entity_name', "HGBasicPantsGrey",
+		PlaceObj('ModItemFolder', {
+			'name', "Sets",
+		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "HG Set",
+			}, {
+				PlaceObj('ModItemEntity', {
+					'name', "HGBasicPantsGrey",
+					'entity_name', "HGBasicPantsGrey",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "HGSuitGrey",
+					'entity_name', "HGSuitGrey",
+				}),
+				}),
+			}),
 		}),
-		PlaceObj('ModItemEntity', {
-			'name', "HGSuitGrey",
-			'entity_name', "HGSuitGrey",
-		}),
-		}),
-	PlaceObj('ModItemFolder', {
-		'name', "Female General Clothes",
-	}, {
-		PlaceObj('ModItemEntity', {
-			'name', "FemaleSortOfShirt",
-			'entity_name', "FemaleSortOfShirt",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "FemaleSkirt",
-			'entity_name', "FemaleSkirt",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "FemaleEntBottom",
-			'entity_name', "FemaleEntBottom",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "FemaleEntTop1",
-			'entity_name', "FemaleEntTop1",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "HatFemale",
-			'entity_name', "HatFemale",
-		}),
-		PlaceObj('ModItemEntity', {
-			'name', "FemaleBag",
-			'entity_name', "FemaleBag",
-		}),
-		}),
+	PlaceObj('ModItemEntity', {
+		'name', "SalmonShirt",
+		'entity_name', "SalmonShirt",
+	}),
 	PlaceObj('ModItemFolder', {
 		'name', "Equipment",
 	}, {
@@ -141,6 +245,46 @@ return {
 		PlaceObj('ModItemFolder', {
 			'name', "Male",
 		}, {
+			PlaceObj('ModItemFolder', {
+				'name', "Vest/Armour",
+			}, {
+				PlaceObj('ModItemEntity', {
+					'name', "TalonArmour",
+					'entity_name', "TalonArmour",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "TalonArmourNoH",
+					'entity_name', "TalonArmourNoH",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "CombatVestMale",
+					'entity_name', "CombatVestMale",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "VietHelmetMale",
+					'entity_name', "VietHelmetMale",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "MaleBlackVest",
+					'entity_name', "MaleBlackVest",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "TacVestMale",
+					'entity_name', "TacVestMale",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "SimpleVestMale",
+					'entity_name', "SimpleVestMale",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "BasicVestMale",
+					'entity_name', "BasicVestMale",
+				}),
+				PlaceObj('ModItemEntity', {
+					'name', "GreenVestMale",
+					'entity_name', "GreenVestMale",
+				}),
+				}),
 			PlaceObj('ModItemEntity', {
 				'name', "MaleHelmetTest",
 				'entity_name', "MaleHelmetTest",
@@ -148,54 +292,6 @@ return {
 			PlaceObj('ModItemEntity', {
 				'name', "TacHelmetMale",
 				'entity_name', "TacHelmetMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "CombatVestMale",
-				'entity_name', "CombatVestMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "VietHelmetMale",
-				'entity_name', "VietHelmetMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "MaleBlackVest",
-				'entity_name', "MaleBlackVest",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "TacVestMale",
-				'entity_name', "TacVestMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "SimpleVestMale",
-				'entity_name', "SimpleVestMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "BasicVestMale",
-				'entity_name', "BasicVestMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "GreenVestMale",
-				'entity_name', "GreenVestMale",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "NCRRangerTorso",
-				'entity_name', "NCRRangerTorso",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "NCRRangerHead",
-				'entity_name', "NCRRangerHead",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "NCRRangerHands",
-				'entity_name', "NCRRangerHands",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "NCRRangerBottom",
-				'entity_name', "NCRRangerBottom",
-			}),
-			PlaceObj('ModItemEntity', {
-				'name', "NCRRangerAcess",
-				'entity_name', "NCRRangerAcess",
 			}),
 			}),
 		PlaceObj('ModItemEntity', {
@@ -307,7 +403,6 @@ return {
 		id = "Boobs",
 	}),
 	PlaceObj('ModItemAppearancePreset', {
-		Armor = "GreenVestFemale",
 		ArmorColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableMetallic1', -128,
@@ -316,7 +411,7 @@ return {
 			'EditableColor3', RGBA(0, 0, 0, 255),
 			'EditableMetallic3', -128,
 		}),
-		Body = "EquipmentEmma_Top",
+		Body = "ChineseShirtv2",
 		BodyColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(24, 9, 5, 255),
 			'EditableColor2', RGBA(73, 43, 27, 255),
@@ -328,13 +423,11 @@ return {
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
 		Comment = '"Trooper"',
-		Hair = "EquipmentFauda_Hair",
 		HairColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Hat = "TacHelmetFemale",
 		Hat2Color = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -348,7 +441,7 @@ return {
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
 		HatSpot = "Origin",
-		Head = "Head_F_Af_NPC_07",
+		Head = "EquipmentBurnedSkeleton_Head",
 		HeadColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -359,13 +452,12 @@ return {
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Pants = "YgcopLegs",
+		Pants = "ChineseSkirtv2",
 		PantsColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(22, 26, 18, 255),
 			'EditableColor2', RGBA(2, 3, 2, 255),
 			'EditableColor3', RGBA(8, 7, 7, 255),
 		}),
-		Shirt = "EquipmentBouncer_Neckless_01",
 		ShirtColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(96, 14, 14, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -375,7 +467,7 @@ return {
 		id = "DummyFemaleTest",
 	}),
 	PlaceObj('ModItemAppearancePreset', {
-		Armor = "CombatVestMale",
+		Armor = "TalonArmourNoH",
 		ArmorColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(51, 34, 17, 255),
 			'EditableColor2', RGBA(51, 34, 17, 255),
