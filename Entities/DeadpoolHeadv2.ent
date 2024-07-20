@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Male" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/DeadpoolHeadv2_mesh.m.hgm"/>
+			<material file="Materials/DeadpoolHeadv2_mesh.mtl"/>
+			<bsphere value="7.472,-0.328,165.753,14.116"/>
+			<box min="-2.706,-8.394,153.109" max="17.650,7.737,178.398"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

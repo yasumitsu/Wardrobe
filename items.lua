@@ -7,20 +7,20 @@ return {
 			'entity_name', "FemaleEntTop",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "TerrorTorso",
-			'entity_name', "TerrorTorso",
+			'name', "DeadpoolTorsov2",
+			'entity_name', "DeadpoolTorsov2",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "TerrorLegs",
-			'entity_name', "TerrorLegs",
+			'name', "DeadpoolHeadv2",
+			'entity_name', "DeadpoolHeadv2",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "TerrorHead",
-			'entity_name', "TerrorHead",
+			'name', "DeadpoolBottomv2",
+			'entity_name', "DeadpoolBottomv2",
 		}),
 		PlaceObj('ModItemEntity', {
-			'name', "TerrorArms",
-			'entity_name', "TerrorArms",
+			'name', "DeadpoolTorsov3",
+			'entity_name', "DeadpoolTorsov3",
 		}),
 		PlaceObj('ModItemEntity', {
 			'name', "YgcopTorso",
@@ -381,7 +381,7 @@ return {
 			'EditableColor2', RGBA(51, 34, 17, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Body = "Male_Body_01",
+		Body = "DeadpoolTorsov3",
 		BodyColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(8, 4, 3, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -410,7 +410,7 @@ return {
 			'EditableColor3', RGBA(255, 255, 255, 255),
 		}),
 		HatSpot = "Origin",
-		Head = "Male_Head_03",
+		Head = "DeadpoolHeadv2",
 		HeadColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(100, 100, 100, 255),
 			'EditableColor2', RGBA(100, 100, 100, 255),
@@ -421,7 +421,7 @@ return {
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Pants = "EquipmentMale_Pants_02",
+		Pants = "DeadpoolBottomv2",
 		PantsColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(42, 28, 14, 255),
 			'EditableColor2', RGBA(18, 24, 6, 255),
