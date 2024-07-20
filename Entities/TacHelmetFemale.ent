@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/TacHelmetFemale_mesh.m.hgm"/>
+			<material file="Materials/TacHelmetFemale_mesh.mtl"/>
+			<bsphere value="8.354,-0.024,157.463,17.063"/>
+			<box min="-6.888,-12.527,143.556" max="23.595,12.480,171.369"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>

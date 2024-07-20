@@ -7,6 +7,22 @@ return {
 			'entity_name', "FemaleEntTop",
 		}),
 		PlaceObj('ModItemEntity', {
+			'name', "TerrorTorso",
+			'entity_name', "TerrorTorso",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "TerrorLegs",
+			'entity_name', "TerrorLegs",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "TerrorHead",
+			'entity_name', "TerrorHead",
+		}),
+		PlaceObj('ModItemEntity', {
+			'name', "TerrorArms",
+			'entity_name', "TerrorArms",
+		}),
+		PlaceObj('ModItemEntity', {
 			'name', "YgcopTorso",
 			'entity_name', "YgcopTorso",
 		}),
@@ -80,6 +96,18 @@ return {
 				'material_type', "Metal_Solid_Hard",
 			}),
 			PlaceObj('ModItemEntity', {
+				'name', "TacHelmetFemale",
+				'class_parent', "AutoAttachObject",
+				'entity_name', "TacHelmetFemale",
+				'material_type', "Metal_Solid_Hard",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "CombatVestFemale",
+				'class_parent', "AutoAttachObject",
+				'entity_name', "CombatVestFemale",
+				'material_type', "Metal_Solid_Hard",
+			}),
+			PlaceObj('ModItemEntity', {
 				'name', "FemaleBlackHelmet",
 				'entity_name', "FemaleBlackHelmet",
 			}),
@@ -104,6 +132,11 @@ return {
 				'entity_name', "GreenVestFemale",
 				'default_colors', PlaceObj('ColorizationPropSet', nil),
 			}),
+			PlaceObj('ModItemEntity', {
+				'name', "VietHelmetFemale",
+				'entity_name', "VietHelmetFemale",
+				'default_colors', PlaceObj('ColorizationPropSet', nil),
+			}),
 			}),
 		PlaceObj('ModItemFolder', {
 			'name', "Male",
@@ -111,6 +144,18 @@ return {
 			PlaceObj('ModItemEntity', {
 				'name', "MaleHelmetTest",
 				'entity_name', "MaleHelmetTest",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "TacHelmetMale",
+				'entity_name', "TacHelmetMale",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "CombatVestMale",
+				'entity_name', "CombatVestMale",
+			}),
+			PlaceObj('ModItemEntity', {
+				'name', "VietHelmetMale",
+				'entity_name', "VietHelmetMale",
 			}),
 			PlaceObj('ModItemEntity', {
 				'name', "MaleBlackVest",
@@ -271,7 +316,7 @@ return {
 			'EditableColor3', RGBA(0, 0, 0, 255),
 			'EditableMetallic3', -128,
 		}),
-		Body = "Sweater",
+		Body = "EquipmentEmma_Top",
 		BodyColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(24, 9, 5, 255),
 			'EditableColor2', RGBA(73, 43, 27, 255),
@@ -289,7 +334,7 @@ return {
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Hat = "FemaleBlackHelmet",
+		Hat = "TacHelmetFemale",
 		Hat2Color = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -320,7 +365,7 @@ return {
 			'EditableColor2', RGBA(2, 3, 2, 255),
 			'EditableColor3', RGBA(8, 7, 7, 255),
 		}),
-		Shirt = "Sweater",
+		Shirt = "EquipmentBouncer_Neckless_01",
 		ShirtColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(96, 14, 14, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),
@@ -330,7 +375,7 @@ return {
 		id = "DummyFemaleTest",
 	}),
 	PlaceObj('ModItemAppearancePreset', {
-		Armor = "SimpleVestMale",
+		Armor = "CombatVestMale",
 		ArmorColor = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(51, 34, 17, 255),
 			'EditableColor2', RGBA(51, 34, 17, 255),
@@ -353,7 +398,7 @@ return {
 			'EditableColor2', RGBA(0, 0, 0, 255),
 			'EditableColor3', RGBA(0, 0, 0, 255),
 		}),
-		Hat = "MaleHelmetTest",
+		Hat = "VietHelmetMale",
 		Hat2Color = PlaceObj('ColorizationPropSet', {
 			'EditableColor1', RGBA(0, 0, 0, 255),
 			'EditableColor2', RGBA(0, 0, 0, 255),

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="" name="">
+	<inherit entity="Female" mesh_ref="mesh"/>
+	<state id="_mesh">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<lod idx="0" distance="0">
+			<mesh file="Meshes/TerrorLegs_mesh.m.hgm"/>
+			<material file="Materials/TerrorLegs_mesh.mtl"/>
+			<bsphere value="4.016,1.803,56.416,60.527"/>
+			<box min="-14.358,-18.268,0.013" max="22.389,21.874,112.820"/>
+			<src file="C:/Users/kenji/AppData/Roaming/Jagged Alliance 3/ModAssets/FBX/.fbx"/>
+		</lod>
+	</mesh_description>
+</entity>
